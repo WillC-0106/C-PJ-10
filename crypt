@@ -1,6 +1,6 @@
 #include<iostream> //file header yang berfungsi sebagai standar input output pada operasi c++
-#include<math.h>
-#include<string.h>
+#include<math.h> //file header yang berfungsi untuk operasi matematika
+#include<string.h> //merupakan header yang berisi fungsi-fungsi makro dan tipe yang digunakan untuk pengoprasian string dan array
 
 using namespace std; //untuk mendeklarasikan fungsi atau class yang merupakan bagian dari namespace std yang bersangkutan
 
@@ -113,7 +113,7 @@ void dekripsi()
 int main()
 {
     
-    cout << "\n ############################################################## \n";
+    cout << "\n ############################################################### \n";
     cout << "\n     Masukan Bilangan Prima Pertama   : ";
     cin >> p;
     flag = Prima(p);
@@ -121,7 +121,7 @@ int main()
     if (flag == 0)
     {
         cout << "\n     Inputan Bukan Bilangan Prima !!!!!\n";
-        cout << "\n ############################################################## \n";
+        cout << "\n ############################################################### \n";
         exit(0);
     }
 
