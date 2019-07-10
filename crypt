@@ -1,8 +1,8 @@
-#include<iostream>
+#include<iostream> //file header yang berfungsi sebagai standar input output pada operasi c++
 #include<math.h>
 #include<string.h>
 
-using namespace std;
+using namespace std; //untuk mendeklarasikan fungsi atau class yang merupakan bagian dari namespace std yang bersangkutan
 
 int p, q, n, t, flag, e[100], d[100], temp[100], j, m[100], en[100], i;
 char msg[100];
