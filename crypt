@@ -55,6 +55,7 @@ void yh()
     }
 }
 
+//untuk enkripsi pesan
 void enkripsi()
 {
     long int pt, ct, key = e[0], k, len;
@@ -83,7 +84,7 @@ void enkripsi()
         printf("%c", en[i]);
 }
 
-//perhitungan dekripsi pesan
+//untuk dekripsi pesan
 void dekripsi()
 {
     long int pt, ct, key = d[0], k;
